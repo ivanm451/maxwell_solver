@@ -11,12 +11,12 @@ user defines data format output (csv, text file, etc) ==> data_from_c_code (usua
 import sys, os
 
 # data read in from C code
-read_data_c():
-    return 
+def read_data_c():
+    pass 
 
 
 # process read data into user defined data format
-post_process_data_c():
+def post_process_data_c():
     # formats include: csv, special data table, binary
     pass
 
